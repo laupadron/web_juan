@@ -1,0 +1,149 @@
+{
+    "resolutions": [
+      {
+        "number": "Res. 37.117",
+        "name": "Manifestar el apoyo y acompañamiento a la decisión del Gobierno Nacional de disponer la intervención transitoria de la empresa agrícola y cerealera Vicentín S.A.I.C.",
+        "date": 2020,
+        "image": "vicentin.jpg",
+        "state":"Aprobado",
+        "area":[ "Interés Social"],
+        "link": ""
+       },
+      {
+        "number": "Res. 37.131",
+        "name": "Creación de acceso en pág. web del Municipio que contenga toda la información referida a COVID-19",
+        "date": 2020,
+        "image": "muni.jpg",
+        "state":"Aprobado",
+        "area":[ "Interés Social", "Salud"],
+        "link": "https://www.concordia.gob.ar/web/gesti%C3%B3n/bolet%C3%ADn-oficial/bolet%C3%ADn-oficial-n%C2%B0-2931-concordia-28-de-julio-de-2020"
+       },
+       {
+        "number": "Res. 37.136",
+        "name": "Apoyo a las gestiones tendientes a mejorar la navegabilidad del Río Uruguay",
+        "date": 2020,
+        "image": "navegabilidad.jpg",
+        "state":"Aprobado",
+        "area":"Ambiente",
+        "link": "https://www.concordia.gob.ar/web/gesti%C3%B3n/bolet%C3%ADn-oficial/bolet%C3%ADn-oficial-n%C2%B0-2933-concordia-5-de-agosto-de-2020"
+       },
+       {
+        "number": "Res. N° 37.326",
+        "name": "Reconocimiento al Agente de Policía Altamirano Mauro Esteban",
+        "date": 2021,
+        "image": "altamirano.jpeg",
+        "state":"Aprobado",
+        "area":"Interés Social",
+        "link": "https://www.concordia.gob.ar/digesto/normativas/5264"
+       },
+       {
+        "number": "Res. N° 37.329",
+        "name": "Apoyo al Acuerdo Federal Hidrovía",
+        "date": 2021,
+        "image": "hidrovia.jpg",
+        "state":"Aprobado",
+        "area":"Ambiente",
+        "link": "https://www.concordia.gob.ar/digesto/normativas/5267"
+       },
+       {
+        "number": "Res. N° 37.332",
+        "name": "Búsqueda del Expte. N° 4889/95, y digitalización del mismo. Se refiere a una consulta popular realziada en el marco del intento por privatizar la represa Salto Grande.",
+        "date": 2021,
+        "image": "saltoGrande.jpg",
+        "state":"Aprobado",
+        "area":"Interés Social",
+        "link": "https://www.concordia.gob.ar/digesto/normativas/5452"
+       },
+       {
+        "number": "Res. N° 37.432",
+        "name": "- Declarar Personalidad Destacada de la ciudad de Concordia, al Sr. Don Saúl Ángel Kobrinsky",
+        "date": 2021,
+        "image": "",
+        "state":"Aprobado",
+        "area":"Interés Social",
+        "link": ""
+       },
+       {
+        "number": "Res. N° 37.450",
+        "name": "Declárese de Interés Municipal Cultural el FORO VIRTUAL PRESENCIAL INTERNACIONAL HACIA EL FUTURO NO VIOLENTO DE LATINOAMERICA",
+        "date": 2021,
+        "image": "violencia.JPG",
+        "state":"Aprobado",
+        "area":"Interés Social",
+        "link": "https://www.concordia.gob.ar/web/gesti%C3%B3n/bolet%C3%ADn-oficial/bolet%C3%ADn-oficial-n%C2%B0-3034-concordia-30-de-septiembre-de-2021"
+       },
+       {
+        "number": "Res. N° 37.522",
+        "name": "Declaración de Interés Social, Cultural y Educativo Municipal el acto en el cual se identificó al Regimiento  como sitio de la Memoria por haber sido un lugar que funcionó como un centro clandestino de detención y tortura.",
+        "date": 2021,
+        "image": "regimiento.jpg",
+        "state":"Aprobado",
+        "area":[ "Interés Social", "Cultura"],
+        "link": "https://www.concordia.gob.ar/web/gesti%C3%B3n/bolet%C3%ADn-oficial/bolet%C3%ADn-oficial-n%C2%B0-3051-concordia-15-de-diciembre-de-2021"
+       },
+       {
+        "number": "Res. 37.499",
+        "name": "Apoyo al Programa Precios Cuidados. Solicta información al Departamento Ejecutivo Municipal",
+        "date": 2021,
+        "image": "precios.jpg",
+        "state":"Aprobado",
+        "area":"Economía Local",
+        "link": "https://www.concordia.gob.ar/digesto/normativas/5860"
+       },
+       {
+        "number": "Res. 37.507",
+        "name": "Declarar de Interés Deportivo y Turístico Municipal la 25º Edición del “Seven del Lago",
+        "date": 2021,
+        "image": "seven.png",
+        "state":"Aprobado",
+        "area":["Deporte","Interés Social"],
+        "link": ""
+       },
+       {
+        "number": "Res. 37.577",
+        "name": "Declarar de Interés Cultural Municipal, el evento denominado Frikimanía 2022",
+        "date": 2022,
+        "image": "maxresdefault.png",
+        "state":"Aprobado",
+        "area":["Cultura","Interés Social"],
+        "link": ""
+       },
+       {
+        "number": "Res. 37.599",
+        "name": "Aceptar el veto dispuesto por el Departamento Ejecutivo Municipal sobre Creación Centro de Monitoreo Municipal",
+        "date": 2022,
+        "image": "monitoreo.jpg",
+        "state":"Aprobado",
+        "area":"Seguridad Ciudadana y/o Urbana",
+        "link": ""
+       },
+       {
+        "number": "Res. 37.630",
+        "name": "Declárese de Interés Municipal el 30 de Julio “Día internacional de la Lucha contra la Trata y Explotación de Personas”.",
+        "date": 2022,
+        "image": "trata.jpeg",
+        "state":"Aprobado",
+        "area":"Derechos de Niños y Adolescentes",
+        "link": ""
+       },
+       {
+        "number": "Res. 37.858",
+        "name": "Expresar reconocimiento y valorar al legado artístico y cultural del conjunto musical “Cantores del Ayuí",
+        "date": 2022,
+        "image": "",
+        "state":"Aprobado",
+        "area":["Cultura", "Interés Social"],
+        "link": "https://www.concordia.gob.ar/web/gesti%C3%B3n/bolet%C3%ADn-oficial/bolet%C3%ADn-oficial-n%C2%B0-3156-concordia-5-de-diciembre-de-2022"
+       },
+       {
+        "number": "Res. 38.015",
+        "name": "Declarar de Interés Educativo, Turístico, Cultural y Ambiental Municipal al Establecimiento “La Angélica",
+        "date": 2023,
+        "image": "angelica.jpg",
+        "state":"Aprobado",
+        "area":["Ambiente", "Interés Social", "Cultura"],
+        "link": "https://www.concordia.gob.ar/web/gesti%C3%B3n/bolet%C3%ADn-oficial/bolet%C3%ADn-oficial-n%C2%B0-3212-concordia-23-de-junio-de-2023"
+       }
+    ]
+  }
+  

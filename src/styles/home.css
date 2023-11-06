@@ -1,0 +1,72 @@
+.img-juan{
+    width: 50%;
+    padding-left: 2rem;
+    margin-top: 2rem;
+    box-shadow: 4px 4px 4px  4px #D8D9DA;
+    height:fit-content;
+    border-radius: 10%;
+    display:block; 
+    position:relative;
+    opacity: 0; 
+    transform: translateX(-100%); 
+    transition: opacity 1.5s, transform 1.5s; 
+}
+.profile-container p{
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+@media (max-width: 768px){
+  .img-juan.show{
+  padding: 0 5px 0 15px;
+  margin-right: 25px;
+  margin-left: 25px;
+  width: 100vw;
+  }
+}
+  .img-juan.show {
+    opacity: 1;
+    transform: translateX(0); 
+  }
+
+
+.profile-container{
+    display: flex;
+    gap: 1rem;
+    
+    z-index: 0;
+}
+@media (max-width: 768px){
+  div.profile-container{
+    flex-direction: column;
+   align-items: center;
+   width:auto;
+   
+    
+  }
+}
+.profile{
+    margin-top: 2rem;
+    padding-right: 2rem;
+    display:block; 
+    position:relative;
+    opacity: 0; 
+    transform: translateX(100%); 
+    transition: opacity 1.5s, transform 1.5s; 
+   
+    z-index: 0;
+}
+
+@media (max-width: 768px){
+  .profile{
+    font-size: 10px;
+    padding: 0 15px 0 15px; 
+     margin: 5px 5px 0 35px;
+    width:auto;
+    text-align: center;
+  }
+}
+.profile.showP {
+    opacity: 1;
+    transform: translateX(0); 
+  }

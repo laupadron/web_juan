@@ -1,0 +1,210 @@
+{
+    "ordinances": [
+      {
+        "number": "Res. 37.115",
+        "name": " Obligatoriedad Uso de Elementos de Protección Personal (COVID)",
+        "date": 2020,
+        "image": "proteccion.jpg",
+        "state":"Aprobado",
+        "area":["Salud", "Interés Social"],
+        "link": "https://www.concordia.gob.ar/digesto/normativas/4780"
+       },
+       {
+        "number": "Res. 37.129",
+        "name": " Régimen de Penalidades por Incumplimiento Normativas y Protocolos COVID",
+        "date": 2020,
+        "image": "proteccion.jpg",
+        "state":"Aprobado",
+        "area":["Salud", "Interés Social"],
+        "link": "https://www.concordia.gob.ar/digesto/normativas/5062"
+       },
+       {
+        "number": "Res. 37.182",
+        "name": " Aprueba cesión entre la empresa VERTER S.A. y AGUAS TERMALES CONCORDIA S.A.",
+        "date": 2020,
+        "image": "verter.jpg",
+        "state":"Aprobado",
+        "area":"Interés Social",
+        "link": ""
+       },
+     
+       {
+        "number": "Res. 37.238",
+        "name": " Creación del Área Municipal de Juventud",
+        "date": 2020,
+        "image": "jovenes.png",
+        "state":"Aprobado",
+        "area":"Derechos de Niños y Adolescentes",
+        "link": ""
+       },
+       {
+        
+        "name": " Limpieza y mantenimiento de inmuebles",
+        "date": 2020,
+        "image": "inmuebles.jpg",
+        "state":"Aprobado",
+        "area":"Ambiente",
+        "link": "https://www.concordia.gob.ar/digesto/normativas/4752"
+       },
+       {
+        "number": "Res. 37.250",
+        "name": "Adhesión Ley 10.821 - Campaña Concientización Prevención de Violencia en Niñez y Adolescencia",
+        "date": 2020,
+        "image": "abuso2.jpg",
+        "state":"Aprobado",
+        "area":"Derechos de Niños y Adolescentes",
+        "link": "https://www.concordia.gob.ar/digesto/normativas/4832"
+       },
+       {
+        "name": "Adhesión Ley Micaela - Creación del Observatorio de Seguimiento de Capacitación en Género y Violencia contra las Mujeres",
+        "date": 2020,
+        "image": "micaela.jpg",
+        "state":"Aprobado",
+        "area":"Prevención Violencia de Género",
+        "link": "https://www.concordia.gob.ar/digesto/normativas/4869"
+       },
+       {
+        "number": "Res. 37.407",
+        "name": "Creación de Campaña de Prevención de Abuso Sexual y de Acompañamiento Profesional a NNyA Víctimas de Abuso Sexual. Observatorio de los Derechos de la Niñez",
+        "date": 2020,
+        "image": "niñez.jpg",
+        "state":"Aprobado",
+        "area":"Derechos de Niños y Adolescentes",
+        "link": "https://www.concordia.gob.ar/digesto/normativas/5652"
+       },
+       {
+        "number": "Res. 37.473",
+        "name": "Prohibición de circular con caños de escape libres",
+        "date": 2021,
+        "image": "escape.jpg",
+        "state":"Aprobado",
+        "area":"Ambiente",
+        "link": "https://www.concordia.gob.ar/digesto/normativas/5810"
+       },
+       {
+        "number": "Res. 37.634",
+        "name": "Cartelería en calcos y remises con la líne a 145 para la atención y contención de víctimas de trata ",
+        "date": 2022,
+        "image": "trata.jpg",
+        "state":"Aprobado",
+        "area":"Prevención Violencia de Género",
+        "link": "https://www.concordia.gob.ar/digesto/normativas/5810"
+       },
+       {
+        "number": "Res. 37.648",
+        "name": "Denomínese Plazoleta ”Heroicos Granaderos” a la rotonda ubicada en Av. Las Heras y H. Primo de nuestra ciudad",
+        "date": 2022,
+        "image": "heroicos.jpg",
+        "state":"Aprobado",
+        "area":"Interés Social",
+        "link": "https://www.concordia.gob.ar/digesto/normativas/7152"
+       },
+       {
+        "number": "Res. 37.671",
+        "name": "Emplazamiento Monumento a Karol Wojtyla (JUAN, PABLO II)",
+        "date": 2022,
+        "image": "papa.jpg",
+        "state":"Aprobado",
+        "area":"Interés Social",
+        "link": "https://www.concordia.gob.ar/web/gesti%C3%B3n/bolet%C3%ADn-oficial/bolet%C3%ADn-oficial-n%C2%B0-3104-concordia-14-de-julio-de-2022"
+       },
+       {
+        "number": "Res. 37.899",
+        "name": "Establécese el emplazamiento de un monumento en la Plazoleta “Heroicos Granaderos”",
+        "date": 2022,
+        "image": "heroicos.jpg",
+        "state":"Aprobado",
+        "area":"Interés Social",
+        "link": "https://www.concordia.gob.ar/digesto/normativas/7388"
+       },
+       {
+        "name": "Creación Centro de Monitoreo Municipal ",
+        "date": 2022,
+        "image": "monitoreo.jpg",
+        "state":"Vetado",
+        "area":"Seguridad Ciudadana y/o Urbana",
+        "link": ""
+       },
+       {
+        "name": "Reordenamiento, reubicación y retiro de cables en desuso en la vía pública",
+        "date": 2021,
+        "image": "cables.jpg",
+        "state":"Vetado",
+        "area":"Seguridad Ciudadana y/o Urbana",
+        "link": "https://www.concordia.gob.ar/digesto/normativas/6068"
+       },
+       {
+        "name": "Creación Registro Público de Retención de Vehículos",
+        "date": 2022,
+        "image": "retenidos.jpg",
+        "state":"Aprobado",
+        "area":"Seguridad Ciudadana y/o Urbana",
+        "link": "https://www.concordia.gob.ar/digesto/normativas/7350"
+       },
+       {
+        "name": "Adhesión Ley 10.485",
+        "date": 2020,
+        "image": "10485.jpg",
+        "state":"En trámte",
+        "area":"Ambiente",
+        "link": ""
+       },
+       {
+        "name": "Regulación de microbasurales.Zonas contenerizadas",
+        "date": 2020,
+        "image": "microbasurales.jpg",
+        "state":"En trámte",
+        "area":"Ambiente",
+        "link": ""
+       },
+       {
+        "name": "Mamparas en remises",
+        "date": "",
+        "image": "remises.jpg",
+        "state":"En trámte",
+        "area":"Seguridad Ciudadana y/o Urbana",
+        "link": ""
+       },
+       {
+        "name": "Jugar compulsivamente es perjudicial para la salud",
+        "date": 2021,
+        "image": "juego.jpg",
+        "state":"En trámte",
+        "area":"Salud",
+        "link": ""
+       },
+       {
+        "name": "Incentivo comerciantes. SUBE",
+        "date": "",
+        "image": "comerciantes.jpg",
+        "state":"",
+        "area":"Economía Local",
+        "link": ""
+       },
+       {
+        "name": "Creación Centro de Estudio y Análisis sobre cumplimiento de los ODS",
+        "date": "",
+        "image": "",
+        "state":"",
+        "area":"Economía Local",
+        "link": ""
+       },
+       {
+        "name": "Autos antiguos",
+        "date": "",
+        "image": "antiguos.jpg",
+        "state":"",
+        "area":"Cultura",
+        "link": ""
+       },
+       {
+        "name": "Autocine",
+        "date": "",
+        "image": "autocine.jpg",
+        "state":"",
+        "area":"Cultura",
+        "link": ""
+       }
+     ]
+      }
+  

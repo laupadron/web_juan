@@ -1,0 +1,144 @@
+.radio-container {
+    position: relative; /* Necesario para posicionar el pseudo-elemento */
+    width: 100vw;
+    height: 100vh;
+    /* No es necesario definir la imagen de fondo directamente aquí */
+    /* background-image: url(../assets/fondoRadio1.jpg); */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    /* overflow: hidden; */
+    display: flex;
+   /* visibility: hidden; */
+}
+
+.radio-container::before {
+    content: "";
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assets/fondoRadio1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.4; /* Ajusta la opacidad de la imagen de fondo */
+    z-index: -1; /* Coloca el pseudo-elemento detrás del contenido */
+}
+.container{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    
+}
+
+.hero-content-inner{
+width: 30%;
+margin-left: 2rem;
+}
+
+.hero-images{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    
+}
+.hero-images-inner{
+    display: flex;
+    gap: 2rem;
+}
+
+.one{
+margin-top: 7rem;
+}
+.hero-image img{
+ box-shadow: 4px 7px 3px -1px rgba(174,195,174,0.75);
+-webkit-box-shadow: 4px 7px 3px -1px rgba(174,195,174,0.75);
+-moz-box-shadow: 4px 7px 3px -1px rgba(174,195,174,0.75);
+
+}
+
+.explore-button{
+    margin-top: 1rem;
+    border: none;
+    width: 50%;
+    height: max-content;
+    border-radius: 1rem;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.explore-button p{
+    margin-top: 5px;
+   
+}
+.btn-row{
+    margin-left: 5rem;
+   
+}
+
+.explore-button:hover{
+    transform: scale(1.1);
+}
+p.hero-content-line{
+    margin-top: 1rem;
+}
+
+@media (max-width: 768px){
+    .container{
+        flex-direction: column;
+        justify-items: center;
+        gap: 1rem;
+        margin-top: 1rem;
+        height: 100vh;
+    }
+    .hero-content-inner{
+        margin-left: 0;
+        width: 90%;
+    }
+    .hero-images-inner{
+       width: 80%;
+       justify-content: center;
+       align-items: center;
+    }
+    .btn-row{
+        width: 100%;
+        margin-left: 0;
+    }
+    .btn-row .hero-content-line{
+        margin-left: 0;
+       
+    }
+    .hero-image img{
+        width: 150px;
+    }
+    .explore-button{
+        width: 30%;
+    }
+   
+}
+@media (max-width: 450px){
+    .container{
+        flex-direction: column;
+        justify-items: center;
+        gap: 1rem;
+       margin-top: 1rem;
+    }
+    .hero-content-inner{
+        margin-left: 0;
+        width: 90%;
+    }
+    .hero-images-inner{
+        width: 80%;
+    }
+    .btn-row{
+        width: 100%;
+        
+    }
+    .btn-row .hero-content-line{
+        margin-left: 0;
+    }
+}
+

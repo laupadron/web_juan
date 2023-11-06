@@ -1,0 +1,53 @@
+/* src/styles.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: 'Comfortaa', cursive;
+  cursor:pointer;
+ background-color:  #E9EDC9;
+}
+ul li:hover ~ .cursor{
+  transform: scale(2);
+}
+.cursor{
+  width: 15px;
+  height: 15px;
+  background-color: #E9EDC9;
+  box-shadow: 0 0 20px #E9EDC9,
+              0 0 60px #E9EDC9,
+              0 0 100px #E9EDC9;
+  position: fixed;
+  border-radius: 50%;
+  pointer-events: none;
+  mix-blend-mode:multiply;
+  animation: colors 5s infinite;
+}
+@keyframes colors{
+  0%{
+      filter: hue-rotate(0deg);
+  }
+  100%{
+      filter: hue-rotate(80deg);
+  }
+}
+
+.cursor::before{
+  content: '';
+  position: absolute;
+  background-color: #E9EDC9;
+  width: 30px;
+  height: 30px;
+  opacity: 0.2;
+  transform: translate(-30%, -30%);
+  border-radius: 50%;
+}
+
+
+
