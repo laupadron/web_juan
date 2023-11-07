@@ -4,14 +4,21 @@
 @import 'tailwindcss/utilities';
 
 *{
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   padding: 0;
   margin: 0;
+  
 }
 body{
+ 
   font-family: 'Comfortaa', cursive;
   cursor:pointer;
- background-color:  #E9EDC9;
+ background-color:  #EDF1D6;
+ overflow-x: hidden;
+ /* margin-left: 1rem; */
+ /* padding:0 1rem 1rem 1rem; */
+ margin-right: 1rem;
+
 }
 ul li:hover ~ .cursor{
   transform: scale(2);
@@ -23,7 +30,7 @@ ul li:hover ~ .cursor{
   box-shadow: 0 0 20px #E9EDC9,
               0 0 60px #E9EDC9,
               0 0 100px #E9EDC9;
-  position: fixed;
+  position: absolute;
   border-radius: 50%;
   pointer-events: none;
   mix-blend-mode:multiply;

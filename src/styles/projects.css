@@ -5,6 +5,7 @@
    margin-top: 2rem;
    margin-left: 1rem;
    margin-right: 1rem;
+   padding: 10px 20px 15px 20px ;
 }
 /* Para pantallas más grandes, muestra 3 columnas */
 
@@ -109,6 +110,7 @@
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  padding: 0 15px 5px 15px;
 }
  .filter-buttons button{
   width: 150px;
@@ -164,5 +166,8 @@
   .filter-buttons button{
     width: 80px;
     font-size: 9px;
+  }
+  .grid-item:hover::before {
+    font-size: 8px;
   }
 }

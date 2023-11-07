@@ -46,13 +46,16 @@ const Ordinances = () => {
           ))}
         </div>
         <div className="grid-container">
+       
+       
+        
+        
           {filteredOrdinances.map((res, index) => (
             <div key={res.name}  className={`grid-item ${index < selectedIndex ? 'animation-ended' : ''}`} data-text={res.name}style={{ animationDelay: `${index * 0.2}s`}}>
               
-              
               <img src={res.image} alt={res.name} ref={el => (imgRefs.current[index] = el)} className='animation-ended' />
+              <h2 ref={el => (nameRefs.current[index] = el)} style={{ fontSize: '15px', marginTop: '0rem', position: 'absolute', top: '10%', left: '50%', transform: 'translate(-50%, -50%)', zIndex: '1',backgroundColor: 'rgba(255, 255, 255, 0.7)',  }}>{res.number}</h2>
               
-              <h2 ref={el => (nameRefs.current[index] = el)} >{res.number}</h2>
               <button onClick={() => window.location.href = res.link}  style={{ width: '30%' }}>+ Info</button>
               
             </div>

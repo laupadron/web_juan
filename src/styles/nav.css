@@ -1,24 +1,31 @@
+.container-nav{
+  width: 100%;
+}
 .nav-container{
-    width: 100vw;
+    margin: 0;
     display: flex;
     align-items: center;
     justify-content:space-around;
   background-color: #fff;
   height: fit-content;
-  padding-bottom: 0;
+ padding-left: 1rem;
   box-shadow: 4px 4px 4px #D8D9DA;
   position: relative; /* Agrega posición relativa */
   z-index: 99;
 }
  
 
+
 .img-logo{
     padding-top: 2rem;
     
+    padding-left: 4rem;
     
 }
 .nav-toggle {
-  display: none; /* Oculta el ícono del menú hamburguesa en pantallas grandes */
+  display: none;
+  width: 100vw;
+  /* Oculta el ícono del menú hamburguesa en pantallas grandes */
 }
 
 
@@ -30,6 +37,7 @@ align-items: center;
 justify-content: end;
 padding-right: 4rem;
 padding-top: 6rem;
+margin-right: 2rem;
 }
  li:hover{
     transform: scale(1.2);
@@ -112,3 +120,39 @@ a{
     font-size: 14px;
   }
 }
+
+/* ul li:hover ~ .cursor{
+  transform: scale(2);
+}
+.show-cursor-in-nav.cursor{
+  width: 15px;
+  height: 15px;
+  background-color: #E9EDC9;
+  box-shadow: 0 0 20px #E9EDC9,
+              0 0 60px #E9EDC9,
+              0 0 100px #E9EDC9;
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  mix-blend-mode:multiply;
+  animation: colors 5s infinite;
+}
+@keyframes colors{
+  0%{
+      filter: hue-rotate(0deg);
+  }
+  100%{
+      filter: hue-rotate(80deg);
+  }
+}
+
+.show-cursor-in-nav.cursor::before{
+  content: '';
+  position: absolute;
+  background-color: #E9EDC9;
+  width: 30px;
+  height: 30px;
+  opacity: 0.2;
+  transform: translate(-30%, -30%);
+  border-radius: 50%;
+} */

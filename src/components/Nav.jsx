@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React,{useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/nav.css'
 import logo from '../assets/logo_blog.png'
@@ -6,16 +6,19 @@ import 'font-awesome/css/font-awesome.min.css';
 
 
 const Nav = () => {
+  
 
   const [isMenuOpen, setMenuOpen] = useState(false); // Estado para controlar el menú
   const [isSubMenuOpen, setSubMenuOpen] = useState(false);
-
+  const [cursorX, setCursorX] = useState(-100); // Valor inicial fuera de la pantalla
+  const [cursorY, setCursorY] = useState(-100); 
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
     closeSubMenu();
   };
 
   const toggleSubMenu = () => {
+    
     setSubMenuOpen(!isSubMenuOpen);
   };
 
@@ -31,18 +34,23 @@ const Nav = () => {
     closeSubMenu();
   };
 
-    const [cursorX, setCursorX]=useState()
-    const [cursorY, setCursorY]=useState()
+   
+  useEffect(() => {
+    const updateCursorPosition = (e) => {
+      setCursorX(e.pageX);
+      setCursorY(e.pageY);
+    };
 
-    window.addEventListener('mousemove', (e)=>{
-    setCursorX(e.pageX)
-    setCursorY(e.setCursorY)
-    }
-    )
+    window.addEventListener('mousemove', updateCursorPosition);
+
+    return () => {
+      window.removeEventListener('mousemove', updateCursorPosition);
+    };
+  }, []);
 
     return (
-        
-        <nav className={`nav-container custom-cursor ${isMenuOpen ? 'menu-open' : ''}`}>
+        <div className="container-nav">
+        <nav className={`nav-container custom-cursor ${isMenuOpen ? 'menu-open' : ''} s`}>
             
         <img src={logo} alt="" className='img-logo'/>
       <div className={`nav-toggle ${isMenuOpen ? 'open' : ''}`} onClick={toggleMenu}>
@@ -55,16 +63,16 @@ menu
             <Link to="/" onClick={closeMenu} >Home</Link>
           </li>
           <li class="sub-menu-container">
-          <div onClick={toggleSubMenu}>Trabajo Legislativo</div>
+          <div onClick={setSubMenuOpen}>Trabajo Legislativo</div>
           {isSubMenuOpen && (
             <ul className="sub-menu">
               <li>
-                <Link to="/proyectos/ordenanzas" onClick={handleSubMenuLinkClick}>
+                <Link to="/proyectos/ordenanzas" onClick={toggleSubMenu}>
                   Ordenanzas
                 </Link>
               </li>
               <li>
-                <Link to="/proyectos/resoluciones" onClick={handleSubMenuLinkClick}>
+                <Link to="/proyectos/resoluciones" onClick={toggleSubMenu}>
                   Resoluciones
                 </Link>
               </li>
@@ -74,7 +82,7 @@ menu
                 </Link>
               </li> */}
               <li>
-                <Link to="/proyectos/videos" onClick={handleSubMenuLinkClick}>
+                <Link to="/proyectos/videos" onClick={toggleSubMenu}>
                   Material Audiovisual
                 </Link>
               </li>
@@ -98,6 +106,12 @@ menu
     <i className="fa fa-instagram" style={{fontSize:'25px', color:'#EA1179'}}></i> {/* Ícono de Instagram */}
   </a>
 </li>
+<li>
+  <a href="https://juandomingogallo.blogspot.com/" target="_blank" rel="noopener noreferrer">
+    
+     <img src="src\assets\blog.jpg" alt=""  style={{width:'23px'}}/> 
+  </a>
+</li>
           {/* <li>
             <Link to="/contacto" onClick={closeMenu}>Contacto</Link>
           </li> */}
@@ -105,12 +119,16 @@ menu
           
           <div className="cursor" style={{left:cursorX + 'px',
         top: cursorY + 'px'}}></div>
+        <div className="nav-cursor" style={{ left: cursorX + 'px', top: cursorY + 'px' }}></div>
+
+       
          
         </ul>
         
        
         
       </nav>
+      </div>
       
     );
 };
