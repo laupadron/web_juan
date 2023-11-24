@@ -38,7 +38,7 @@
         "link": ""
        },
        {
-        
+        "number": "Res. 37.251",
         "name": " Limpieza y mantenimiento de inmuebles",
         "date": 2020,
         "image": "inmuebles.jpg",
@@ -56,6 +56,7 @@
         "link": "https://www.concordia.gob.ar/digesto/normativas/4832"
        },
        {
+        "number": "Res. 37.268",
         "name": "Adhesión Ley Micaela - Creación del Observatorio de Seguimiento de Capacitación en Género y Violencia contra las Mujeres",
         "date": 2020,
         "image": "micaela.jpg",
@@ -64,9 +65,10 @@
         "link": "https://www.concordia.gob.ar/digesto/normativas/4869"
        },
        {
+        
         "number": "Res. 37.407",
         "name": "Creación de Campaña de Prevención de Abuso Sexual y de Acompañamiento Profesional a NNyA Víctimas de Abuso Sexual. Observatorio de los Derechos de la Niñez",
-        "date": 2020,
+        "date": 2021,
         "image": "niñez.jpg",
         "state":"Aprobado",
         "area":"Derechos de Niños y Adolescentes",
@@ -158,6 +160,7 @@
         "link": ""
        },
        {
+        "number": "Res. 37.104",
         "name": "Mamparas en remises",
         "date": "",
         "image": "remises.jpg",
@@ -184,7 +187,7 @@
        {
         "name": "Creación Centro de Estudio y Análisis sobre cumplimiento de los ODS",
         "date": "",
-        "image": "",
+        "image": "ods.jpg",
         "state":"",
         "area":"Economía Local",
         "link": ""
